@@ -12,5 +12,5 @@ var start = sentence.indexOf(':');
 var end = sentence.indexOf('.', start+1);
 var listStr = sentence.substring(start+1, end);
 //使用string的split方法将字符分割成一个数组
-var fruits = listStr.split('.');
+var fruits = listStr.split(',');
 console.log(fruits);
